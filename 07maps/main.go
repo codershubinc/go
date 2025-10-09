@@ -23,4 +23,15 @@ func main() {
 	for key, value := range langs {
 		fmt.Printf("For key %v, value is %v\n", key, value)
 	}
+	fmt.Println("Length of map is ", len(langs))
+
+	//comma ok idiom
+	lang, ok := langs["js"]
+	if ok {
+		fmt.Println("Language: js ", lang)
+	} else {
+		fmt.Println("Language js is not present")
+	}
+
+	
 }
