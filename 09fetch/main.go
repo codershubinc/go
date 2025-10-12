@@ -46,8 +46,7 @@ func main() {
 	fmt.Printf("Middle Name: %s\n", user.Name.MiddleName)
 	fmt.Printf("Last Name: %s\n", user.Name.LastName)
 	fmt.Printf("Title: %s %s\n", user.Name.Prefix, user.Name.Title)
-	fmt.Printf("Gender: %s\n", user.Name.Gender)
-	fmt.Printf("Country Code: %s\n", user.Name.CountryCode)
+	fmt.Printf("Gender: %s\n", user.Name.Gender) 
 
 	fmt.Printf("\n--- Preferences ---\n")
 	fmt.Printf("Mode: %s\n", user.Prefs.Mode)
