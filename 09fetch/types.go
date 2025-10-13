@@ -8,7 +8,7 @@ type Name struct {
 	Prefix      string `json:"prefix"`
 	Title       string `json:"title"`
 	Gender      string `json:"gender"`
-	CountryCode string `json:"contryCode"` // Note: keeping the typo from API
+	CountryCode string `json:"contryCode"` 
 }
 
 type Devices struct {
